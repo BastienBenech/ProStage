@@ -45,6 +45,7 @@ class ProstageController extends AbstractController
     {
         return $this->render('prostage/affichageStage.html.twig', [
             'controller_name' => 'ProstageController',
+            'idStage' => 345,
         ]);
     }
 }
